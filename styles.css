@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #002957;
+}
+
+header {
+    background-color: #002957;
+    color: #fed602;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background-color: #002957;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a:hover {
+        color: #fed602;
+        text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ServTec {
+    color:#fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: url(ST-Fondo.png);
+    border-radius: 8px;
+    max-width: 1250px;
+    box-shadow: 7px 7px 15px #fe0202;
+}
+
+.ServTec a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ServTec a:visited {
+    color: #fff;
+}
+
+.ServTec a:active {
+    color: #fff;
+}
+
+.ServTec a:hover {
+    color: #fe0202;
+    text-decoration: underline;
+}
+
+.MundoGamer-Logo {
+    text-align: center;
+    display: block;
+}
+
+.ServTec-Titulo, .MundoGamer-i, .G5500-Titulo, .G5500-Precio, .G5500V2-Titulo, .G5500V2-Precio, .G5600-Titulo, .G5600-Precio, .G5600V2-Titulo, .G5600V2-Precio, .E4600G-Titulo, .E4600G-Precio, .E5600G-Titulo, .E5600G-Precio, .EduKT-Titulo {
+    text-align: center;
+}
+
+.ServTec-Cont, .N-ImgP, .SW-UlImg, .P-UlImg, .Catalogo-1, .Catalogo-2, .Catalogo-3, .PC1-Imagen, .PC2-Imagen, .PC3-Imagen, .PC4-Imagen, .PC5-Imagen, .PC6-Imagen {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.MundoGamer {
+    color:#fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: url(MG-Fondo.png);
+    border-radius: 8px;
+    max-width: 1250px;
+    box-shadow: 7px 7px 15px #69f5ce;
+}
+
+.G5500, .G5500V2, .G5600, .G5600V2, .E4600G, .E5600G {
+    background-color: transparent;
+    padding: auto;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 3.5px 3.5px 7.5px #ff00ff;
+}
+
+.EduKT {
+    color:#fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: url(EduKT-Fondo.png);
+    border-radius: 8px;
+    max-width: 1250px;
+    box-shadow: 7px 7px 15px #fff;
+    list-style: none;
+}
+
+footer {
+    background-color: #fed602;
+    color: #002957;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a{ 
+    color: #002957;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #002957;
+}
+
+footer a:active {
+    color: #002957;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
